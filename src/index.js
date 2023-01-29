@@ -23,7 +23,7 @@ function Test() {
           </div>
         </div>
       </div>
-      <div>
+      <div class='start-container'>
         <button id='start' onClick={renderTest}>Почати тестування</button>
       </div>
     </>

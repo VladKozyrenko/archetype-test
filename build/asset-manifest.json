@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/archetype-test/static/css/main.51929521.css",
+    "main.js": "/archetype-test/static/js/main.7632a21f.js",
+    "index.html": "/archetype-test/index.html",
+    "main.51929521.css.map": "/archetype-test/static/css/main.51929521.css.map",
+    "main.7632a21f.js.map": "/archetype-test/static/js/main.7632a21f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51929521.css",
+    "static/js/main.7632a21f.js"
+  ]
+}

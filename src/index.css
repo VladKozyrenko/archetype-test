@@ -126,7 +126,7 @@ div {
   margin-right: auto;
   padding: 0;
   display: inline-flex;
-  left: 42%;
+  left: 38%;
   margin: 10px;
   text-decoration: none;
   border: 2px solid #000000;
@@ -278,6 +278,17 @@ div {
   font-size: 30px;
 }
 
+.start-container {
+  margin: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1400px;
+  padding: 0;
+  color: #ffffff;
+  font-size: 30px;
+}
+
 .z-container {
   margin: 10px;
   margin-left: auto;
@@ -288,4 +299,240 @@ div {
   background-color: #9b8b75;
   border: 5px solid #000000;
   background: rgba(170, 113, 7, 0.726);
+}
+
+/* Addaptive */
+@media only screen and (max-width : 1024px) {
+  #start {
+    left: 37%;
+    font-size: 15px;
+  }
+
+  .nine h1 span {
+    font-size: 20px;
+  }
+
+  .nine h1 {
+    font-size: 40px;
+  }
+
+  .box p {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  li {
+    font-size: 20px;
+  }
+
+  #root {
+    width: 100%;
+    min-height: 100%;
+    background-color: #7e7575;
+    background-image: url('https://miro.medium.com/max/842/1*BeO5Nm6WVs0M6VbDyaEATg.jpeg');
+    background-size: cover;
+  }
+
+  .x-container {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  #answer-btn {
+    width: 170px;
+    height: 170px;
+    border-radius: 85px;
+    font-size: 18px;
+    margin: 15px;
+  }
+
+  #question-container {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  #start {
+    left: 35%;
+    font-size: 15px;
+  }
+
+  .nine h1 span {
+    font-size: 15px;
+  }
+
+  .nine h1 {
+    font-size: 35px;
+  }
+
+  .box p {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  li {
+    font-size: 20px;
+  }
+
+  #root {
+    width: 100%;
+    min-height: 100%;
+    background-color: #7e7575;
+    background-image: url('https://miro.medium.com/max/842/1*BeO5Nm6WVs0M6VbDyaEATg.jpeg');
+    background-size: cover;
+  }
+
+  .x-container {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  #answer-btn {
+    width: 130px;
+    height: 130px;
+    border-radius: 65px;
+    font-size: 13px;
+    margin: 10px;
+  }
+
+  #question-container {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  #start {
+    left: 20%;
+    font-size: 15px;
+  }
+
+  .nine h1 span {
+    font-size: 10px;
+  }
+
+  .nine h1 {
+    font-size: 30px;
+  }
+
+  .box p {
+    font-size: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  li {
+    font-size: 10px;
+  }
+
+  #root {
+    width: 100%;
+    min-height: 100%;
+    background-color: #7e7575;
+    background-image: url('https://miro.medium.com/max/842/1*BeO5Nm6WVs0M6VbDyaEATg.jpeg');
+    background-size: cover;
+  }
+
+  .x-container {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  #answer-btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    font-size: 7px;
+    margin: 6.5px;
+  }
+
+  #question-container {
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width : 320px) {
+  #start {
+    left: 11%;
+    font-size: 15px;
+  }
+
+  .nine h1 span {
+    font-size: 8px;
+  }
+
+  .nine h1 {
+    font-size: 20px;
+  }
+
+  .box p {
+    font-size: 10px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  li {
+    font-size: 10px;
+  }
+
+  #root {
+    width: 100%;
+    min-height: 100%;
+    background-color: #7e7575;
+    background-image: url('https://miro.medium.com/max/842/1*BeO5Nm6WVs0M6VbDyaEATg.jpeg');
+    background-size: cover;
+  }
+
+  .x-container {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  #answer-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 5px;
+    margin: 6px;
+  }
+
+  #question-container {
+    font-size: 13px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
 }
