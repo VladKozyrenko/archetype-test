@@ -138,7 +138,6 @@ div {
   background-color: #858282;
   color: rgb(255, 255, 255);
   text-align: center;
-  line-height: 50px;
   font-size: 20px;
   font-family: "Playfair Display", cursive;
   cursor: pointer;
@@ -310,7 +309,7 @@ div {
   margin-right: auto;
   width: 100%;
   max-width: 1200px;
-  padding: 0;
+  padding: 20px;
   background-color: #eeebe7;
   border: 2px solid #96969693;
   border-radius: 75px;
@@ -404,7 +403,7 @@ div {
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 98%;
     max-width: 1200px;
   }
 
@@ -462,16 +461,20 @@ div {
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 98%;
     max-width: 1200px;
   }
 
   #answer-btn {
-    width: 170px;
-    height: 170px;
-    border-radius: 85px;
-    font-size: 18px;
-    margin: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    font-size: 15px;
+    margin: 20px;
+  }
+
+  #cmbck {
+    left: 26%;
   }
 
   #question-container {
@@ -520,15 +523,19 @@ div {
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 98%;
   }
 
   #answer-btn {
-    width: 130px;
-    height: 130px;
-    border-radius: 65px;
-    font-size: 13px;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    font-size: 12px;
     margin: 10px;
+  }
+
+  #cmbck {
+    left: 17%;
   }
 
   #question-container {
@@ -543,7 +550,7 @@ div {
 @media only screen and (max-width : 480px) {
   #start {
     left: 20%;
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .nine h1 span {
@@ -551,15 +558,16 @@ div {
   }
 
   .nine h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .box p {
-    font-size: 10px;
+    font-size: 7px;
+    padding: 0;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 10px;
   }
 
   li {
@@ -573,8 +581,19 @@ div {
     background-size: cover;
   }
 
+  .y-container {
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .t-container {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 35px;
+  }
+
   .x-container {
-    margin: 10px;
+    margin: 5px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -582,11 +601,17 @@ div {
   }
 
   #answer-btn {
-    width: 70px;
-    height: 70px;
-    border-radius: 35px;
-    font-size: 7px;
-    margin: 6.5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 5px;
+    margin: 8px;
+  }
+
+  #cmbck {
+    font-size: 10px;
+    margin: 3px;
+    padding: 5px;
   }
 
   #question-container {
@@ -595,6 +620,11 @@ div {
 
   h3 {
     font-size: 20px;
+  }
+
+  p {
+    padding: 5px;
+    font-size: 10px;
   }
 }
 
@@ -670,8 +700,14 @@ div {
     width: 50px;
     height: 50px;
     border-radius: 25px;
-    font-size: 5px;
-    margin: 6px;
+    font-size: 6px;
+    margin: 2px;
+  }
+
+  #cmbck {
+    font-size: 8px;
+
+    padding: 3px;
   }
 
   #question-container {
@@ -679,6 +715,22 @@ div {
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width : 375px) {
+  #cmbck {
+    left: 30%;
+    font-size: 6px;
+    padding: 2px;
+  }
+
+  #answer-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 7px;
+    margin: 6px;
   }
 }
