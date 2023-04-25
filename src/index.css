@@ -109,7 +109,7 @@ div {
 }
 
 /* Addaptive */
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 1200px) {
     #start {
         left: 37%;
         font-size: 15px;
@@ -155,7 +155,7 @@ div {
         height: 150px;
         border-radius: 75px;
         font-size: 15px;
-        margin: 20px;
+        margin: 10px;
     }
 
     #cmbck {
@@ -171,7 +171,7 @@ div {
     }
 }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 960px) {
     #start {
         left: 37%;
         font-size: 15px;
@@ -205,19 +205,19 @@ div {
     }
 
     .x-container {
-        margin: 10px;
+        margin: 8px;
         margin-left: auto;
         margin-right: auto;
         width: 98%;
-        max-width: 1200px;
+        max-width: 960px;
     }
 
     #answer-btn {
-        width: 170px;
-        height: 170px;
-        border-radius: 85px;
-        font-size: 18px;
-        margin: 15px;
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        font-size: 11px;
+        margin: 10px;
     }
 
     #question-container {
@@ -227,9 +227,14 @@ div {
     h3 {
         font-size: 45px;
     }
+
+    #cmbck {
+        left: 21%;
+        font-size: 15px;
+    }
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 760px) {
     #start {
         left: 35%;
         font-size: 15px;
@@ -270,15 +275,16 @@ div {
     }
 
     #answer-btn {
-        width: 120px;
-        height: 120px;
-        border-radius: 60px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
         font-size: 12px;
         margin: 10px;
     }
 
     #cmbck {
         left: 17%;
+        font-size: 10px;
     }
 
     #question-container {
@@ -289,6 +295,109 @@ div {
         font-size: 30px;
     }
 
+}
+
+@media only screen and (max-width : 480px) {
+    #start {
+        left: 30%;
+        font-size: 10px;
+    }
+
+    .nine h1 span {
+        font-size: 10px;
+    }
+
+    .nine h1 {
+        font-size: 25px;
+    }
+
+    .box p {
+        font-size: 7px;
+        padding: 0;
+    }
+
+    h2 {
+        font-size: 10px;
+    }
+
+    li {
+        font-size: 10px;
+    }
+
+    #root {
+        width: 100%;
+        min-height: 100%;
+        background-color: #ffffff81;
+        background-size: cover;
+    }
+
+    .y-container {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .t-container {
+        margin: 5px;
+        padding: 10px;
+        border-radius: 35px;
+    }
+
+    .x-container {
+        margin: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    #answer-btn {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        font-size: 5px;
+        margin: 8px;
+    }
+
+    #cmbck {
+        left: 25%;
+        font-size: 10px;
+        margin: 3px;
+        padding: 5px;
+    }
+
+    #question-container {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .z-container {
+        border-radius: 50px;
+    }
+
+    .z-container h1 {
+        left: 10%;
+        font-size: 25px;
+    }
+
+    .z-container ul {
+        font-size: 15px;
+    }
+
+    .z-container h2 {
+        font-size: 15px;
+    }
+
+    .z-container #cmbk {
+        left: 10%;
+    }
 }
 
 @media only screen and (max-width : 425px) {
@@ -354,7 +463,7 @@ div {
 
     #cmbck {
         left: 25%;
-        font-size: 10px;
+        font-size: 8px;
         margin: 3px;
         padding: 5px;
     }
