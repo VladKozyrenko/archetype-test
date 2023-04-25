@@ -1,0 +1,122 @@
+/*Containers*/
+.x-container {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #eeebe7;
+    border: 2px solid #96969693;
+    border-radius: 75px;
+    background: rgba(88, 1, 187, 0.726);
+}
+
+.z-container {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0;
+    background-color: #eeebe7;
+    border: 2px solid #96969693;
+    border-radius: 75px;
+    background: rgba(88, 1, 187, 0.726);
+}
+
+#question-container {
+    margin-top: 50px;
+}
+
+/*Buttons*/
+#answer-btn {
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #858282;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    font-family: "Playfair Display", cursive;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid #000000;
+}
+
+#answer-btn:hover {
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+    transition: 0.7s;
+}
+
+#answer-btn:active {
+    background-color: #5a01a7;
+}
+
+#cmbck {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    display: inline-flex;
+    left: 30%;
+    margin: 10px;
+    text-decoration: none;
+    border: 2px solid #96969693;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 12px 30px;
+    color: rgb(245, 220, 161);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Playfair Display", cursive;
+    background: rgba(223, 223, 223, 0.726);
+    transition: box-shadow 0.3s, transform 0.3s;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+#cmbck:hover,
+#cmbck:active,
+#cmbck:focus {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(119, 121, 250, 0.932), 0 16px 20px rgba(209, 140, 83, 0.2);
+    color: #FFF;
+}
+
+/*Answer-div*/
+.answer-div {
+    color: #FFF;
+    font-family: "Playfair Display", cursive;
+}
+
+.answer-div h1 {
+    position: relative;
+    left: 30%;
+}
+
+.answer-div h2 {
+    position: relative;
+    left: 2%;
+}
+
+.answer-div ul {
+    position: relative;
+    left: 3%;
+    font-size: 20px;
+}
+
+.answer-div span {
+    font-weight: bold;
+    color: #f8f8f8;
+}
+
+/*Cursive-family*/
+.cursive {
+    font-family: "Playfair Display", cursive;
+}

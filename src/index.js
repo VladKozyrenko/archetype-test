@@ -1,44 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom";
+import MainPage from "./Components/MainPage/MainPage";
+import TestPage from "./Components/TestPage/TestPage";
 import './index.css';
-import App from './App';
 
 function Test() {
-  return (
-    <>
-      <div class="box">
-        <div class='y-container'>
-          <p>Архетип - це спосіб дії, впливу несвідомого на свідомість. Це також універсальні вроджені психічні структури, які походять від інстинктів і закладені в природі людини; це складові колективного несвідомого, які розпізнаються в нашому досвіді і є, як правило, в образах і мотивах сновидінь. Вони представляються в певних патернах (моделях) поведінки, які знаходять своє обличчя в повсякденному житті. Можна сказати, що це свого роду сигнал з давнини і потужного несвідомого. Існує велика кількість архетипів; починаючи з давніх часів вони проявляють себе в міфах, легендах, казках всіх народів.</p>
-        </div>
-        <div class='box'>
-          <div class='t-container'>
-            <h2>ЗА ДОПОМОГОЮ АРХЕТИПІВ ТИ:</h2>
-            <li>Знайдеш відповіді на запитання «Хто я в новій реальності? Як мені працювати? Що робити?".</li>
-            <li>Зміцниш внутрішні опори - компас, який не дасть збитися зі шляху у важкі хвилини.</li>
-            <li>Знайдете почуття впевненості в собі та надійності в «завтрашньому дні» не дивлячись на зовнішні обставини.</li>
-            <li>Створиш фундамент особистого бренду, який дозволить бути затребуваним фахівцем та підприємцем.</li>
-          </div>
-        </div>
-      </div>
-      <div class='y-container'>
-        <p>ТЕСТ ПІДСВІЧУЄ ТВОЮ СУПЕРСИЛУ ТА ВИЗНАЧАЄ УНІКАЛЬНЕ ПОЄДНАННЯ РОЛЬОВИХ МОДЕЛЕЙ, У ЯКИХ ТИ НАЙБІЛЬШ ЕФЕКТИВНИЙ, А ЗНАЧИТЬ ОТРИМУЄШ БАЖАНИЙ РЕЗУЛЬТАТ ЛЕГКО ТА ІЗ ЗАДОВОЛЕННЯМ.</p>
-      </div>
-      <div class='start-container'>
-        <button id='start' onClick={renderTest}>Почати тестування</button>
-      </div>
-    </>
-  )
+    return (
+        <MainPage />
+    )
 }
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const renderTest = () => {
-  root.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
-}
 root.render(
-  <React.StrictMode>
-    <Test />
-  </React.StrictMode>
+    <React.StrictMode>
+        <Test />
+    </React.StrictMode>
 )
+
+export const renderTest = () => {
+    root.render(
+        <React.StrictMode>
+            <TestPage />
+        </React.StrictMode>
+    );
+}
