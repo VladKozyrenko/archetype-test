@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/archetype-test/static/css/main.c9d3fa0b.css",
-    "main.js": "/archetype-test/static/js/main.208c9464.js",
+    "main.css": "/archetype-test/static/css/main.f13fed4e.css",
+    "main.js": "/archetype-test/static/js/main.53ecba2b.js",
     "index.html": "/archetype-test/index.html",
-    "main.c9d3fa0b.css.map": "/archetype-test/static/css/main.c9d3fa0b.css.map",
-    "main.208c9464.js.map": "/archetype-test/static/js/main.208c9464.js.map"
+    "main.f13fed4e.css.map": "/archetype-test/static/css/main.f13fed4e.css.map",
+    "main.53ecba2b.js.map": "/archetype-test/static/js/main.53ecba2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9d3fa0b.css",
-    "static/js/main.208c9464.js"
+    "static/css/main.f13fed4e.css",
+    "static/js/main.53ecba2b.js"
   ]
 }
